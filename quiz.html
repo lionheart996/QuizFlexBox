@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+    <h1>Flexbox Quiz</h1>
+
+    <div class="quiz-container">
+        <form id="quizForm">
+
+            <!-- Question 1 -->
+            <div class="question">
+                <h3>1. What does Flexbox stand for?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q1" value="a"> Flexible Box Layout</label>
+                    <label><input type="radio" name="q1" value="b"> Flexibility Box Layout</label>
+                    <label><input type="radio" name="q1" value="c"> Fluid Box Layout</label>
+                    <label><input type="radio" name="q1" value="d"> Flow Box Layout</label>
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <h3>2. What CSS property is used to make an element a Flexbox container?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q2" value="a"> flex-flow</label>
+                    <label><input type="radio" name="q2" value="b"> flex-direction</label>
+                    <label><input type="radio" name="q2" value="c"> display: flex</label>
+                    <label><input type="radio" name="q2" value="d"> justify-content</label>
+                </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+                <h3>3. What property controls the main axis alignment of Flexbox items?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q3" value="a"> align-items</label>
+                    <label><input type="radio" name="q3" value="b"> justify-content</label>
+                    <label><input type="radio" name="q3" value="c"> align-content</label>
+                    <label><input type="radio" name="q3" value="d"> flex-wrap</label>
+                </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+                <h3>4. Which flexbox property is shorthand for flex-direction and flex-wrap?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q4" value="a"> flex-wrap</label>
+                    <label><input type="radio" name="q4" value="b"> flex-flow</label>
+                    <label><input type="radio" name="q4" value="c"> align-items</label>
+                    <label><input type="radio" name="q4" value="d"> order</label>
+                </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question">
+                <h3>5. What is the default value of the flex-direction property?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q5" value="a"> row</label>
+                    <label><input type="radio" name="q5" value="b"> column</label>
+                    <label><input type="radio" name="q5" value="c"> row-reverse</label>
+                    <label><input type="radio" name="q5" value="d"> column-reverse</label>
+                </div>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question">
+                <h3>6. Which flexbox property arranges items vertically?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q6" value="a"> flex-direction: row;</label>
+                    <label><input type="radio" name="q6" value="b"> flex-direction: column;</label>
+                    <label><input type="radio" name="q6" value="c"> flex-wrap: wrap;</label>
+                    <label><input type="radio" name="q6" value="d"> justify-content: center;</label>
+                </div>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">
+                <h3>7. What does the justify-content: space-between property do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q7" value="a"> Aligns items at the start of the main axis</label>
+                    <label><input type="radio" name="q7" value="b"> Distributes space evenly between items</label>
+                    <label><input type="radio" name="q7" value="c"> Puts equal space around each item</label>
+                    <label><input type="radio" name="q7" value="d"> Aligns items at the end of the main axis</label>
+                </div>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question">
+                <h3>8. Which property allows flexbox items to appear on multiple lines?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q8" value="a"> flex-direction</label>
+                    <label><input type="radio" name="q8" value="b"> justify-content</label>
+                    <label><input type="radio" name="q8" value="c"> align-items</label>
+                    <label><input type="radio" name="q8" value="d"> flex-wrap</label>
+                </div>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question">
+                <h3>9. What is the default value of flex-wrap?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q9" value="a"> wrap</label>
+                    <label><input type="radio" name="q9" value="b"> wrap-reverse</label>
+                    <label><input type="radio" name="q9" value="c"> nowrap</label>
+                    <label><input type="radio" name="q9" value="d"> none</label>
+                </div>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question">
+                <h3>10. Which flexbox property controls the alignment along the cross axis?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q10" value="a"> align-content</label>
+                    <label><input type="radio" name="q10" value="b"> flex-flow</label>
+                    <label><input type="radio" name="q10" value="c"> align-items</label>
+                    <label><input type="radio" name="q10" value="d"> justify-content</label>
+                </div>
+            </div>
+
+            <!-- Question 11 -->
+            <div class="question">
+                <h3>11. What does flex-wrap: wrap-reverse; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q11" value="a"> Items will not wrap and overflow</label>
+                    <label><input type="radio" name="q11" value="b"> Items wrap onto multiple lines in reverse order</label>
+                    <label><input type="radio" name="q11" value="c"> Items are centered on the main axis</label>
+                    <label><input type="radio" name="q11" value="d"> Items are aligned at the start of the cross axis</label>
+                </div>
+            </div>
+
+            <!-- Question 12 -->
+            <div class="question">
+                <h3>12. What does display: inline-flex; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q12" value="a"> The element behaves like block-level and flex container</label>
+                    <label><input type="radio" name="q12" value="b"> The element behaves like inline text and flex container</label>
+                    <label><input type="radio" name="q12" value="c"> The element is hidden</label>
+                    <label><input type="radio" name="q12" value="d"> The element behaves like inline text only</label>
+                </div>
+            </div>
+
+            <!-- Question 13 -->
+            <div class="question">
+                <h3>13. Which property defines how flexbox items are aligned along the main axis?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q13" value="a"> align-items</label>
+                    <label><input type="radio" name="q13" value="b"> justify-content</label>
+                    <label><input type="radio" name="q13" value="c"> align-content</label>
+                    <label><input type="radio" name="q13" value="d"> flex-direction</label>
+                </div>
+            </div>
+
+            <!-- Question 14 -->
+            <div class="question">
+                <h3>14. What does flex-direction: column-reverse; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q14" value="a"> Items are arranged in a row in reverse order</label>
+                    <label><input type="radio" name="q14" value="b"> Items are arranged in a column in reverse order</label>
+                    <label><input type="radio" name="q14" value="c"> Items are centered</label>
+                    <label><input type="radio" name="q14" value="d"> Items wrap onto multiple lines</label>
+                </div>
+            </div>
+
+            <!-- Question 15 -->
+            <div class="question">
+                <h3>15. What does flex-grow: 1; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q15" value="a"> The item will not grow</label>
+                    <label><input type="radio" name="q15" value="b"> The item will grow to fill available space</label>
+                    <label><input type="radio" name="q15" value="c"> The item will shrink if necessary</label>
+                    <label><input type="radio" name="q15" value="d"> The item will stay its initial size</label>
+                </div>
+            </div>
+
+            <!-- Question 16 -->
+            <div class="question">
+                <h3>16. What does flex-shrink: 0; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q16" value="a"> The item will shrink if necessary</label>
+                    <label><input type="radio" name="q16" value="b"> The item will not shrink</label>
+                    <label><input type="radio" name="q16" value="c"> The item will grow to fill space</label>
+                    <label><input type="radio" name="q16" value="d"> The item will wrap its content</label>
+                </div>
+            </div>
+
+            <!-- Question 17 -->
+            <div class="question">
+                <h3>17. What does flex-basis: 80px; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q17" value="a"> Sets the initial main size of the item to 80px</label>
+                    <label><input type="radio" name="q17" value="b"> Sets the maximum width to 80px</label>
+                    <label><input type="radio" name="q17" value="c"> Sets the minimum height to 80px</label>
+                    <label><input type="radio" name="q17" value="d"> Sets the padding to 80px</label>
+                </div>
+            </div>
+
+            <!-- Question 18 -->
+            <div class="question">
+                <h3>18. What is the purpose of the align-items property?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q18" value="a"> Aligns items along the main axis</label>
+                    <label><input type="radio" name="q18" value="b"> Aligns items individually</label>
+                    <label><input type="radio" name="q18" value="c"> Aligns items along the cross axis</label>
+                    <label><input type="radio" name="q18" value="d"> Distributes space between items</label>
+                </div>
+            </div>
+
+            <!-- Question 19 -->
+            <div class="question">
+                <h3>19. Which property is used to set the order of flex items?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q19" value="a"> order</label>
+                    <label><input type="radio" name="q19" value="b"> flex-order</label>
+                    <label><input type="radio" name="q19" value="c"> item-order</label>
+                    <label><input type="radio" name="q19" value="d"> order-position</label>
+                </div>
+            </div>
+
+            <!-- Question 20 -->
+            <div class="question">
+                <h3>20. What does align-content: space-around; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q20" value="a"> Distributes space equally around each line</label>
+                    <label><input type="radio" name="q20" value="b"> Aligns all lines to the start</label>
+                    <label><input type="radio" name="q20" value="c"> Aligns all lines to the end</label>
+                    <label><input type="radio" name="q20" value="d"> Stretches lines to fill space</label>
+                </div>
+            </div>
+
+            <!-- Question 21 -->
+            <div class="question">
+                <h3>21. Which property defines how flex items are stretched to fill the container?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q21" value="a"> justify-content: stretch;</label>
+                    <label><input type="radio" name="q21" value="b"> align-content: stretch;</label>
+                    <label><input type="radio" name="q21" value="c"> align-items: stretch;</label>
+                    <label><input type="radio" name="q21" value="d"> flex-grow: stretch;</label>
+                </div>
+            </div>
+
+            <!-- Question 22 -->
+            <div class="question">
+                <h3>22. How do you align items at the end of the cross axis?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q22" value="a"> align-items: flex-start;</label>
+                    <label><input type="radio" name="q22" value="b"> align-items: center;</label>
+                    <label><input type="radio" name="q22" value="c"> align-items: flex-end;</label>
+                    <label><input type="radio" name="q22" value="d"> align-items: baseline;</label>
+                </div>
+            </div>
+
+            <!-- Question 23 -->
+            <div class="question">
+                <h3>23. What does align-items: baseline; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q23" value="a"> Aligns items based on their baseline</label>
+                    <label><input type="radio" name="q23" value="b"> Stretches items to fill the cross axis</label>
+                    <label><input type="radio" name="q23" value="c"> Aligns items to the center</label>
+                    <label><input type="radio" name="q23" value="d"> Aligns items to the start</label>
+                </div>
+            </div>
+
+            <!-- Question 24 -->
+            <div class="question">
+                <h3>24. When does the align-content property take effect?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q24" value="a"> Always, regardless of flex-wrap</label>
+                    <label><input type="radio" name="q24" value="b"> Only when flex-wrap: wrap is set and there are multiple lines</label>
+                    <label><input type="radio" name="q24" value="c"> Only when align-items is center</label>
+                    <label><input type="radio" name="q24" value="d"> Only when justify-content is space-between</label>
+                </div>
+            </div>
+
+            <!-- Question 25 -->
+            <div class="question">
+                <h3>25. What does align-content: stretch; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q25" value="a"> Stretches each line to fill the remaining space</label>
+                    <label><input type="radio" name="q25" value="b"> Centers all lines along the cross axis</label>
+                    <label><input type="radio" name="q25" value="c"> Aligns all lines to the start</label>
+                    <label><input type="radio" name="q25" value="d"> Distributes space evenly between lines</label>
+                </div>
+            </div>
+
+            <!-- Question 26 -->
+            <div class="question">
+                <h3>26. What does align-content: flex-start; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q26" value="a"> Each line fills the space it needs and aligns to the start of the cross axis</label>
+                    <label><input type="radio" name="q26" value="b"> Each line stretches to fill the container</label>
+                    <label><input type="radio" name="q26" value="c"> Each line aligns to the center of the cross axis</label>
+                    <label><input type="radio" name="q26" value="d"> Each line aligns to the end of the cross axis</label>
+                </div>
+            </div>
+
+            <!-- Question 27 -->
+            <div class="question">
+                <h3>27. What does align-content: flex-end; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q27" value="a"> Aligns all lines to the start of the cross axis</label>
+                    <label><input type="radio" name="q27" value="b"> Aligns all lines to the end of the cross axis</label>
+                    <label><input type="radio" name="q27" value="c"> Stretches all lines to fill space</label>
+                    <label><input type="radio" name="q27" value="d"> Distributes space evenly between lines</label>
+                </div>
+            </div>
+
+            <!-- Question 28 -->
+            <div class="question">
+                <h3>28. What does align-content: center; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q28" value="a"> Aligns all lines to the start of the cross axis</label>
+                    <label><input type="radio" name="q28" value="b"> Aligns all lines to the end of the cross axis</label>
+                    <label><input type="radio" name="q28" value="c"> Centers all lines along the cross axis</label>
+                    <label><input type="radio" name="q28" value="d"> Stretches all lines to fill space</label>
+                </div>
+            </div>
+
+            <!-- Question 29 -->
+            <div class="question">
+                <h3>29. What does align-content: space-between; do?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q29" value="a"> Distributes remaining space between the lines</label>
+                    <label><input type="radio" name="q29" value="b"> Distributes remaining space around the lines</label>
+                    <label><input type="radio" name="q29" value="c"> Aligns all lines to the center</label>
+                    <label><input type="radio" name="q29" value="d"> Stretches all lines to fill space</label>
+                </div>
+            </div>
+
+            <!-- Question 30 -->
+            <div class="question">
+                <h3>30. What property applies the same layout rules as align-items but to a single flex item?</h3>
+                <div class="answers">
+                    <label><input type="radio" name="q30" value="a"> order</label>
+                    <label><input type="radio" name="q30" value="b"> align-self</label>
+                    <label><input type="radio" name="q30" value="c"> flex-grow</label>
+                    <label><input type="radio" name="q30" value="d"> flex-shrink</label>
+                </div>
+            </div>
+
+            <!-- Submit button -->
+            <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
